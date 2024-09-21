@@ -1,0 +1,60 @@
+body {
+  font-family: monospace;
+  background-color: #d1ddf5;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 50px;
+  font-style: italic;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 15px;
+  gap: 20px;
+  padding: 40px;
+}
+
+.a {
+  height: 300px;
+  width: 400px;
+  border-radius: 4px;
+}
+
+.a:hover {
+  transform: scale(1.1);
+  border: 2px solid white;
+  z-index: 102;
+  transition: 0.5s;
+}
+
+.b {
+  height: 350px;
+  width: 400px;
+  border-radius: 4px;
+}
+
+.b:hover {
+  transform: scale(1.1);
+  border: 2px solid white;
+  z-index: 102;
+  transition: 0.5s;
+}
+
+.c {
+  height: 350px;
+  width: 400px;
+  border-radius: 4px;
+}
+
+.c:hover {
+  transform: scale(1.1);
+  border: 2px solid white;
+  z-index: 102;
+  transition: 0.5s;
+}
